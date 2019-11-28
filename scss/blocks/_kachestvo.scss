@@ -1,0 +1,147 @@
+.kachestvo{
+    &-bg{
+        position: absolute;
+        z-index: -1;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 29%;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+
+    &-bg img{
+        width: 100%;
+    }
+
+    &-title{
+        color: #5ea1b2;
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: bold;
+        position: relative;
+        top: -166px;
+    }
+
+    &-block{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: -35px;
+       
+        &_item{
+            width: 188px;
+            min-height: 170px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &-img{
+                width: 50px;
+            }
+
+            &:hover{
+
+                
+                transform: scale(1.2);
+                box-shadow: 0 6px 49px rgba(148, 157, 201, 0.5);
+                border-radius: 15px;
+                border: 5px solid #ffffff;
+                background-color: #5ea1b1;
+
+               
+            }
+    }
+
+   
+
+}
+
+&-text{
+    color: #5ea1b2 !important;
+    font-family: "Comfortaa";
+    font-size: 17px;
+    font-weight: 400;
+}
+
+&-svg{
+    fill: #5ea1b2 !important;
+    margin-bottom: 35px;    
+}
+
+}
+
+
+
+
+
+@media (max-width: 830px){
+
+    .kachestvo-bg {
+        top: 41%;   
+    }
+
+    .kachestvo-bg img {
+        width: 120%;
+    }
+}
+
+@media (max-width: 791px){
+    .kachestvo-bg img {
+        width: 100%;
+    }
+
+    .kachestvo-bg {
+        top: 21%;   
+    }
+}
+
+@media (max-width: 708px){
+    .kachestvo-bg {
+        top: 23%;   
+    }
+
+    .kachestvo-bg img {
+        width: 112%;
+    }
+}
+
+@media (max-width: 667px){
+
+    .kachestvo-bg {
+        top: 54%;   
+    }
+
+    .kachestvo-bg img {
+        width: 168%;
+    }
+  
+}
+
+@media (max-width: 634px){
+    .kachestvo-bg {
+        top: 46%;   
+    }
+}
+
+@media (max-width: 564px){
+    .kachestvo-bg img {
+        width: 183%;
+    }  
+}
+
+
+@media (max-width: 518px){
+    .kachestvo-bg img {
+        width: 200%;
+    } 
+}
+
+
+@media (max-width: 457px){
+    .kachestvo{
+        background-color: #f5f6fb;   
+    } 
+}
